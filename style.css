@@ -97,10 +97,9 @@ h2{
     padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-/* New task */
-
 }
 
+/* New task */
 h2:before{
     content:'\25BC';
     font-size: 15px;
@@ -129,4 +128,19 @@ h2:before{
     font-size: 10px;
 }
 /* Fine New task */
+
+/* Today */
+.bottom .violet{
+    background-color: rgb(89, 0, 255);
+}
+
+.bottom .green{
+    background-color: rgb(2, 112, 44);
+}
+
+.bottom .orange{
+    background-color: rgb(255, 145, 0);
+}
+
+
 /* Fine Contenuto centrale */
