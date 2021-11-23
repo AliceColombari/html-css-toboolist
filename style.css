@@ -11,6 +11,7 @@ body{
 }
 /* Fine common */
 
+
 /* Inizio header */
 header{
     background-color: #fff;
@@ -37,6 +38,7 @@ header h1{
 }
 /* Fine header */
 
+
 /* Inizio main */
 /* Intestazione */
 #section{
@@ -48,7 +50,7 @@ header h1{
 #content{
     background-color: #fff;
     height: 50px;
-    padding: 15px;
+    padding: 35px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -76,6 +78,8 @@ button{
 /* Fine Intestazione */
 
 /* Contenuto centrale */
+
+
 h2{
     margin-bottom: 10px;
     color: #333333;
@@ -99,6 +103,10 @@ h2{
     border-bottom-right-radius: 10px;
 }
 
+span{
+    margin-bottom: 25px;
+}
+
 /* New task */
 h2:before{
     content:'\25BC';
@@ -108,18 +116,26 @@ h2:before{
 
 .special{
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    padding: 8px;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
     display: inline-block;
     background: #fff;
-    border: 2px solid rgb(0, 170, 51);
-    color: rgb(0, 170, 51);
     text-align: center;
 }
 
+.true{
+    border: 2px solid rgb(0, 170, 51);
+    color: rgb(0, 170, 51);
+}
+
+.false{
+    border: 2px solid rgb(170, 0, 0);
+    color: rgb(170, 0, 0);
+}
+
+
 .bottom{
-    background-color: rgb(0, 162, 255);
     border-radius: 10px;
     font-size: 10px;
     text-align: center;
@@ -127,20 +143,35 @@ h2:before{
     color: #fff;
     font-size: 10px;
 }
+
+.blue{
+    background-color: rgb(0, 162, 255);
+}
 /* Fine New task */
 
 /* Today */
-.bottom .violet{
+.violet{
     background-color: rgb(89, 0, 255);
 }
 
-.bottom .green{
-    background-color: rgb(2, 112, 44);
+.green{
+    background-color: rgb(0, 170, 51);
 }
 
-.bottom .orange{
+.orange{
     background-color: rgb(255, 145, 0);
 }
+/* Fine Today */
 
+/* Upcoming */
+.pink{
+    background-color: rgb(247, 0, 255);
+}
+
+.lightgreen{
+    background-color: rgb(0, 255, 98);
+}
+
+/* Fine Upcoming */
 
 /* Fine Contenuto centrale */
