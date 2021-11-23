@@ -73,5 +73,22 @@ button{
     background-color: #fff;
     border: solid 1px lightgray;
 }
-
 /* Fine Intestazione */
+
+/* Contenuto centrale */
+#central-content{
+    width: 80%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+#element{
+    background-color: #fff;
+    height: 100%;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+/* Fine Contenuto centrale */
