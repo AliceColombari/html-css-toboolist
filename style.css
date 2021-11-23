@@ -85,9 +85,6 @@ h2{
     color: #333333;
 }
 
-
-
-/* New task */
 #central-content{
     width: 80%;
     margin: auto;
@@ -100,6 +97,8 @@ h2{
     padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+/* New task */
+
 }
 
 h2:before{
@@ -108,23 +107,26 @@ h2:before{
     padding-right: 10px;
 }
 
-#special{
-    
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    color: #00ff00;;
-    border: 2px solid #00ff00;
+.special{
     border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    display: inline-block;
+    background: #fff;
+    border: 2px solid rgb(0, 170, 51);
+    color: rgb(0, 170, 51);
+    text-align: center;
 }
 
-.item{
+.bottom{
     background-color: rgb(0, 162, 255);
     border-radius: 10px;
     font-size: 10px;
     text-align: center;
     padding: 7px;
     color: #fff;
+    font-size: 10px;
 }
 /* Fine New task */
 /* Fine Contenuto centrale */
