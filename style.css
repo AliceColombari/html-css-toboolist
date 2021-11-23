@@ -1,0 +1,38 @@
+/* Inizio common */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+/* Fine common */
+
+/* Inizio header */
+header{
+    background-color: #fff;
+    height: 100px;
+    background-size: 30%;
+}
+
+.logo{
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+header h1{
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#container{
+    padding: 25px;
+}
+/* Fine header */
