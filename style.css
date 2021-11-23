@@ -6,7 +6,7 @@
 
 body{
     margin: 0px;
-    background-color: lightgray;
+    background-color: rgb(246, 248, 249);
     font-family: sans-serif;
 }
 /* Fine common */
@@ -71,9 +71,9 @@ button{
 }
 
 .add-section{
-    color: lightgray;
+    color:rgb(246, 248, 249);
     background-color: #fff;
-    border: solid 1px lightgray;
+    border: solid 1px rgb(246, 248, 249);
 }
 /* Fine Intestazione */
 
@@ -125,13 +125,13 @@ h2:before{
 }
 
 .true{
-    border: 2px solid rgb(0, 170, 51);
-    color: rgb(0, 170, 51);
+    border: 2px solid rgb(138, 198, 181);
+    color: rgb(138, 198, 181);
 }
 
 .false{
-    border: 2px solid rgb(170, 0, 0);
-    color: rgb(170, 0, 0);
+    border: 2px solid rgb(208, 0, 0);
+    color: rgb(208, 0, 0);
 }
 
 
@@ -145,31 +145,31 @@ h2:before{
 }
 
 .blue{
-    background-color: rgb(0, 162, 255);
+    background-color: rgb(102, 172, 235);
 }
 /* Fine New task */
 
 /* Today */
 .violet{
-    background-color: rgb(89, 0, 255);
+    background-color: rgb(149, 118, 221);
 }
 
 .green{
-    background-color: rgb(0, 170, 51);
+    background-color: rgb(125, 190,170);
 }
 
 .orange{
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(228, 161, 75);
 }
 /* Fine Today */
 
 /* Upcoming */
 .pink{
-    background-color: rgb(247, 0, 255);
+    background-color: rgb(199, 105, 157);
 }
 
 .lightgreen{
-    background-color: rgb(0, 255, 98);
+    background-color: rgb(181, 199, 74);
 }
 
 /* Fine Upcoming */
