@@ -15,26 +15,21 @@ body{
 /* Inizio header */
 header{
     background-color: #fff;
-    height: 100px;
-    background-size: 30%;
+    height: 70px;
+    padding: 10px 20px;
 }
 
 .logo{
-    height: 50px;
-    text-align: center;
+    height: 100%;
     vertical-align: middle;
 
 }
 
 header h1{
     font-size: 40px;
+    font-weight: bold;
     display: inline-block;
-    text-align: center;
     vertical-align: middle;
-}
-
-#container{
-    padding: 25px;
 }
 /* Fine header */
 
@@ -44,13 +39,12 @@ header h1{
 #section{
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 #content{
     background-color: #fff;
-    height: 50px;
-    padding: 35px;
+    padding: 10px 50px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -71,9 +65,9 @@ button{
 }
 
 .add-section{
-    color:rgb(246, 248, 249);
+    color:rgb(218, 218, 218);
     background-color: #fff;
-    border: solid 1px rgb(246, 248, 249);
+    border: solid 1px rgb(218, 218, 218);
 }
 /* Fine Intestazione */
 
@@ -98,20 +92,20 @@ h2{
 #element{
     background-color: #fff;
     height: 100%;
-    padding: 15px;
+    padding: 10px 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 span{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 /* New task */
 h2:before{
-    content:'\25BC';
-    font-size: 15px;
-    padding-right: 10px;
+    content:'\25BE';
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 .special{
@@ -119,12 +113,14 @@ h2:before{
     width: 25px;
     height: 25px;
     padding: 1px;
+    margin-right: 10px;
     display: inline-block;
     background: #fff;
     text-align: center;
+    line-height: 25px;
 }
 
-.true{
+.special.true{
     border: 2px solid rgb(138, 198, 181);
     color: rgb(138, 198, 181);
 }
@@ -139,9 +135,8 @@ h2:before{
     border-radius: 10px;
     font-size: 10px;
     text-align: center;
-    padding: 7px;
+    padding: 5px 10px;
     color: #fff;
-    font-size: 10px;
 }
 
 .blue{
